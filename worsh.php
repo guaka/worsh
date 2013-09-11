@@ -1,4 +1,7 @@
 <?php
+// Report all errors as long as this is in alpha
+error_reporting(E_ALL);
+ini_set("display_errors", 1);
 require_once 'wp-config.php';
 
 // not sure where the newline is coming from
