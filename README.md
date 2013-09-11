@@ -1,7 +1,7 @@
 # worsh - the WordPress Shell
 
 
-WordPress Shell, inspired by drush.
+WordPress Shell, inspired by [drush](http://drush.ws/), the super powerful Drupal shell.
 
 Enough of phpmyadmin? Or twiddling with WordPress backend interface?
 Do you want the power of shell to manage your WordPress websites?
