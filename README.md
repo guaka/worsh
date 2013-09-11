@@ -1,3 +1,7 @@
+
+
+***Check [wp-cli](https://github.com/wp-cli/wp-cli)***
+
 # worsh - the WordPress Shell
 
 
