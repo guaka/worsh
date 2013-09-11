@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 // Report all errors as long as this is in alpha
 error_reporting(E_ALL);
@@ -59,3 +60,8 @@ function worsh_sql_cli() {
 function worsh_sql_dump() {
   worsh_exec('mysqldump ' . mysql_params());
 }
+
+function worsh_php_eval($params) {
+  eval($params[0] . ";");
+}
+
