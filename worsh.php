@@ -68,8 +68,9 @@ function worsh_exec($command) {
 }
 
 function worsh_sql_cli() {
-  print "This doesn't work as expected, yet\n";
-  worsh_exec('mysql --database=' . mysql_params());
+  // Not sure what the $pipes is about, copied it from drush and it works.
+  proc_close(proc_open('mysql --database=' . mysql_params(), 
+                       array(0 => STDIN, 1 => STDOUT, 2 => STDERR), $pipes));
 }
 
 function worsh_sql_dump() {
