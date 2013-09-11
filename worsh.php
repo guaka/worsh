@@ -80,10 +80,17 @@ function worsh_php_eval($params) {
   eval($params[0] . ";");
 }
 
-function worsh_themelist() {
+function worsh_theme_list() {
   foreach (wp_get_themes() as $name => $theme) {
     print $name . ' '. "\n";
     // How to access ["headers":"WP_Theme":private]=>?
     // var_dump($theme);
+  }
+}
+
+function worsh_plugin_list() {
+  include_once(ABSPATH . 'wp-admin/includes/admin.php');
+  foreach (get_plugins() as $name => $plugin) {
+    print $name . ' ' . $plugin['Name'] . ' ' . $plugin['Version'] . "\n";
   }
 }
