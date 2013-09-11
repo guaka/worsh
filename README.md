@@ -18,3 +18,9 @@ For now, just run
     php worsh/worsh.php oget siteurl
 
 or create a symlink.
+
+
+sql-dump
+--------
+
+    php worsh/worsh.php sql-dump
