@@ -80,3 +80,10 @@ function worsh_php_eval($params) {
   eval($params[0] . ";");
 }
 
+function worsh_themelist() {
+  foreach (wp_get_themes() as $name => $theme) {
+    print $name . ' '. "\n";
+    // How to access ["headers":"WP_Theme":private]=>?
+    // var_dump($theme);
+  }
+}
