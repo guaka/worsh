@@ -25,15 +25,13 @@ You could create a convenient symlink:
 some commands that are supposed to work that can come in handy at times.
 
 
-### oget
-
     worsh oget siteurl
 
 
-
-
-### sql-dump
-
     worsh sql-dump
+    
+
+    worsh plugin-list
 
 
+    worsh theme-list
