@@ -1,6 +1,9 @@
 # worsh - the WordPress Shell
 
 
+*aka The redneck way to pronounce the word "Wash"*
+
+
 WordPress Shell, inspired by [drush](http://drush.ws/), the super powerful Drupal shell.
 
 Enough of phpmyadmin? Or twiddling with WordPress backend interface?
