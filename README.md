@@ -1,6 +1,7 @@
 
-
 ***Check [wp-cli](https://github.com/wp-cli/wp-cli)***
+
+I started hacking on `worsh` when I was still unaware of the existence of wp-cli, which is a great tool and project.
 
 # worsh - the WordPress Shell
 
